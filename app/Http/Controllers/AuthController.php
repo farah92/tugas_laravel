@@ -18,7 +18,6 @@ class AuthController extends Controller
                     'depan'     => $nama_depan,
                     'belakang'  => $nama_belakang,
                 ]; 
-        //return "Nama : ".$nama_depan.", Alamat : ".$nama_belakang;
         return view('welcome' , $data);
     }
 }

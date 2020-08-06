@@ -10,4 +10,14 @@ class HomeController extends Controller
         //return "Halo ini adalah method index, dalam controller DosenController. - www.malasngoding.com";
         return view('home');
     }
+
+    public function table()
+    {
+        return view('master');
+    }
+
+    public function data_tables()
+    {
+        return view('data_tables');
+    }
 }
